@@ -1,0 +1,5 @@
+# characters.txt (loaded via File I/O)
+# id,displayName,color,speed,handling,lives,discsOwned,experiencePoints
+id,displayName,color,speed,handling,lives,discsOwned,experiencePoints
+TRON,Tron,Blue,1.40,1.00,3.0,1,0
+KEVIN,Kevin Flynn,White,1.70,1.25,3.5,1,0

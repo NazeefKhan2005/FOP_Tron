@@ -1,0 +1,12 @@
+# id,title,description
+id,title,description
+ACH_FIRST_WIN,First Derezz,Win your first level.
+ACH_LEVEL_5,Disc Runner,Reach level 5.
+ACH_LEVEL_10,Disciple of the Grid,Reach level 10.
+ACH_LEVEL_25,Chapter One Complete,Reach level 25.
+ACH_LEVEL_50,Chapter Two Complete,Reach level 50.
+ACH_LEVEL_75,Chapter Three Complete,Reach level 75.
+ACH_LEVEL_99,The Last Cycle,Reach level 99.
+ACH_BEAT_SARK,Enforcer Down,Derez Sark at least once.
+ACH_BEAT_RINZLER,Silent Hunter Down,Derez Rinzler at least once.
+ACH_BEAT_CLU,Corrupted Core Purged,Derez Clu at least once.

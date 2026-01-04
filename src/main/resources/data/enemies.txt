@@ -1,0 +1,7 @@
+# enemies.txt (loaded via File I/O)
+# id,displayName,color,difficulty,xpReward,speed,handling,aggression,intelligence
+id,displayName,color,difficulty,xpReward,speed,handling,aggression,intelligence
+CLU,Clu,Gold,Impossible,1000,1.85,1.35,0.95,Brilliant
+RINZLER,Rinzler,Red,Hard,500,1.75,1.25,0.75,Clever
+SARK,Sark,Yellow,Medium,100,1.35,1.05,0.45,Moderate
+KOURA,Koura,Green,Easy,10,1.10,0.85,0.20,Low

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FOP Tron</title>
+  <link rel="stylesheet" href="/css/app.css" />
+</head>
+<body>
+<div class="layout">
+  <header class="header">
+    <div class="title">FOP Tron</div>
+    <div class="subtitle">Light Cycle Arena — survive the Grid</div>
+  </header>
+
+  <section class="panel">
+    <div class="row">
+      <label class="field">
+        <span>Player name</span>
+        <input id="playerName" placeholder="Your name" value="Player" />
+      </label>
+
+      <label class="field">
+        <span>Character</span>
+        <select id="characterSelect"></select>
+      </label>
+
+      <label class="field">
+        <span>Arena</span>
+        <select id="arenaSelect"></select>
+      </label>
+
+      <label class="field">
+        <span>Mode</span>
+        <label style="display:flex; gap:8px; align-items:center;">
+          <input id="manualStep" type="checkbox" checked />
+          <span>Manual (step-by-step)</span>
+        </label>
+      </label>
+
+      <button id="startBtn" class="btn">Start</button>
+      <button id="loadBtn" class="btn">Load</button>
+      <button id="saveBtn" class="btn">Save</button>
+      <button id="lbBtn" class="btn">Top 10</button>
+      <button id="exitBtn" class="btn">Exit</button>
+    </div>
+
+    <div class="hint">
+      Controls: <b>WASD</b> or <b>ASDF</b> move, <b>Arrow keys</b> supported, <b>E</b> or <b>Space</b> throw disc, <b>R</b> restart. In Manual mode: each keypress advances 1 step.
+    </div>
+  </section>
+
+  <main class="main">
+    <div class="boardFrame">
+      <canvas id="grid" width="640" height="640" tabindex="0"></canvas>
+    </div>
+
+    <aside class="hud">
+      <div class="hudBlock">
+        <div class="hudTitle">Player</div>
+        <div id="playerHud" class="hudText">Not connected.</div>
+      </div>
+
+      <div class="hudBlock">
+        <div class="hudTitle">Enemies</div>
+        <div id="enemyHud" class="hudText">—</div>
+      </div>
+
+      <div class="hudBlock">
+        <div class="hudTitle">Story</div>
+        <div id="storyText" class="storyText">—</div>
+      </div>
+
+      <div class="hudBlock">
+        <div class="hudTitle">Event Log</div>
+        <div id="events" class="events"></div>
+      </div>
+
+      <div class="hudBlock">
+        <div class="hudTitle">Achievements</div>
+        <div id="achievements" class="events"></div>
+      </div>
+
+      <div class="hudBlock">
+        <div class="hudTitle">Leaderboard (Top 10)</div>
+        <div id="leaderboard" class="events"></div>
+      </div>
+    </aside>
+  </main>
+</div>
+
+<script src="/webjars/sockjs-client/sockjs.min.js"></script>
+<script src="/webjars/stomp-websocket/stomp.min.js"></script>
+<script src="/js/game.js"></script>
+</body>
+</html>

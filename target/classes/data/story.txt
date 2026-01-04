@@ -1,0 +1,64 @@
+# story.txt (loaded via File I/O)
+# Chapters unlock by level and/or boss defeat.
+
+[CHAPTER id=CH1 title="Boot Sequence" unlockLevel=1]
+The Grid boots around you.
+Neon walls flicker to life. The air smells like ozone.
+
+A voice: "Welcome, Program. Your trail is your signature. Your disc is your identity."
+[/CHAPTER]
+
+[CHAPTER id=CH2 title="Jetwall Doctrine" unlockLevel=10]
+You learn the Grid's first law: never cross your own path.
+Jetwalls are not just light — they are memory.
+[/CHAPTER]
+
+[CHAPTER id=CH3 title="The Hunter" unlockLevel=15]
+A red flash.
+Rinzler patrols the arena with silent precision.
+
+"He doesn't chase you," the voice warns, "he predicts you."
+[/CHAPTER]
+
+[CHAPTER id=CH4 title="Legacy of the Creator" unlockLevel=20]
+Kevin's presence stabilizes your control.
+The Grid responds faster.
+Your disc returns with purpose.
+[/CHAPTER]
+
+[CHAPTER id=CH5 title="Corruption" unlockLevel=30]
+Gold light spills into the arena.
+Clu is not random — he's a perfect idea that learned to bend rules.
+[/CHAPTER]
+
+[CHAPTER id=CH6 title="DEREZZ" unlockLevel=1 unlockOnDefeat=CLU]
+Clu falls.
+For a moment, the Grid is quiet.
+
+The voice: "You didn't just win. You changed the system."
+
+Choose what happens next:
+1) RESTORE — lock the rules, preserve the Grid.
+2) REWRITE — bend the system, become the new Architect.
+
+Press 1 or 2.
+[/CHAPTER]
+
+[CHAPTER id=END_RESTORE title="Ending: Restore" unlockLevel=1]
+You restore the Grid.
+Walls hold. Jetwalls become law again.
+
+The voice: "Stability is not control. It's trust."
+
+Ending achieved: RESTORE THE GRID.
+[/CHAPTER]
+
+[CHAPTER id=END_REWRITE title="Ending: Rewrite" unlockLevel=1]
+You rewrite the system.
+Rules become tools.
+The arena reshapes to your intent.
+
+The voice: "Every perfect idea learns to mutate." 
+
+Ending achieved: REWRITE THE SYSTEM.
+[/CHAPTER]

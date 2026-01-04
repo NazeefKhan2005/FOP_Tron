@@ -19,8 +19,8 @@ WORKDIR /app
 # Render provides $PORT at runtime; Spring is configured to use it.
 ENV JAVA_OPTS="-XX:+UseContainerSupport -XX:MaxRAMPercentage=75.0"
 
-# Copy the Spring Boot fat jar
-COPY --from=build /app/target/*.jar /app/app.jar
+# Copy the Spring Boot fat jar (built as target/app.jar)
+COPY --from=build /app/target/app.jar /app/app.jar
 
 EXPOSE 8080
 
